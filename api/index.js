@@ -20,5 +20,5 @@ app.use(express.json());
 app.use('/', routes);
 
 app.listen(process.env.PORT || PORT, () => {
-    console.log(`APP iis running. listening at http://localhost:${PORT}`);
+    console.log(`APP is running. listening at http://localhost:${PORT}`);
 })
